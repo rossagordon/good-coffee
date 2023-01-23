@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.bg-hero {
+    background-image: url('./assets/beans.jpg');
+    background-position: center ;
+    background-size: cover;
+    opacity: 0.70;
+    z-index: -1;
+    position: relative;
+}
