@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 m-w-[1240px] mx-auto px-4 bg-[#bg-gray-100]">
+    <div className="flex justify-between items-center h-24 m-w-[1240px] mx-auto px-4 bg-[#bg-gray-100] text-white">
       <h1 className="w-full text-3xl font-bold">GOOD COFFEE.</h1>
       <ul className="hidden md:flex">
         <li className="p-4 cursor-pointer hover:underline hover:font-bold">
@@ -35,7 +35,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? 'fixed left-0 top-0 h-full w-[60%] border-r border-r-black bg-black text-white ease-in-out duration-500'
+            ? 'fixed left-0 top-0 h-full w-[60%] border-r border-r-black bg-[#284B63] text-white  ease-in-out duration-500'
             : 'fixed left-[-100%]'
         }
       >
